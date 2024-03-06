@@ -14,7 +14,8 @@ Welcome to the Tic-Tac-Toe project! This is a classic game of Tic-Tac-Toe built 
 
 1. **Start the Game**: Open `index.html` in your browser to start the game.
 2. **Choose Your Mode**: Select between Single-Player and Two-Player modes.
-3. **Play**: Click on the grid to make your move. In Single-Player mode, the AI will make its move after you.
+3. **Play Against the Computer**: Click on the grid to make your move. In Single-Player mode, the AI will make its move after you.
+4. **Play Against Friends**: Click on the 1P Icon to play against friends.
 
 ## Setup
 
@@ -31,5 +32,3 @@ Contributions to the Tic-Tac-Toe project are welcome! If you have suggestions fo
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-
