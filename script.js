@@ -269,6 +269,8 @@ resetButton.onclick = function () {
     winState.winningTiles.forEach((piece) => {
         tiles[piece.i * 3 + piece.j].classList.remove("blink");
     });
+
+    winState = {winningTiles: [], winner: null};
     winnerIndicator.innerHTML = `<span style="font-family:'Share Tech Mono'">Winner: None</span>`;
     updateTurnIndicator(isPlayerTurn);
 };
