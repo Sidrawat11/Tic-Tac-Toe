@@ -1,0 +1,221 @@
+/**
+ * This file contains the CSS styles for the website.
+ */
+
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #000000; 
+    color: #FFFFFF; 
+    font-family: 'Share Tech Mono', monospace; 
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+    color: #00FF00;
+}
+
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.player-tag {
+    font-size: 1.5em; 
+    margin: 20px 0;
+    color: #00FF00; 
+}
+
+.board {
+    display: grid;
+    background-color: #061940;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    /* border: 2px solid #061940;  */
+    width: 60vw; 
+    height: 60vw; 
+    max-width: 600px; 
+    max-height: 600px; 
+    margin: auto; 
+}
+
+@media (max-width: 600px) {
+    .board {
+        width: 90vw; 
+        height: 90vw; 
+    }
+}
+
+.grid-item {
+    background-color: #072B73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #030A8C;
+    min-width: 50px; 
+    min-height: 50px;
+}
+
+.grid-item span {
+    font-size: 8vw; 
+}
+
+/* Cap the font size for very large screens */
+@media (min-width: 1024px) {
+    .grid-item span {
+        font-size: 80px; /* Maximum font size */
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-item span {
+        font-size: 32px; 
+    }
+}
+
+.grid-item:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.game-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust based on your design preference */
+    margin-top: 20px; /* Space from the board */
+}
+
+.reset-button {
+    background-color: #030A8C;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reset-button:hover {
+    background-color: #061940;
+    transform: scale(1.05);
+}
+
+.score-board{
+    display: grid;
+    place-items: center;
+    font-size: larger;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto auto; 
+    gap: 20px;
+}
+
+.winner-label {
+    color: #00FF00;
+    font-size: 1.2em; 
+}
+
+.controller{
+    display: flex;
+    gap: 50px;
+    justify-content: center;;
+}
+
+.playerController{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.fade-in {
+    animation: fadeInAnimation 0.75s ease-in-out forwards;
+}
+
+.blink {
+    animation: blinkAnimation 1s infinite;
+}
+
+@keyframes fadeInAnimation {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes blinkAnimation {
+    80% { opacity: 0; }
+}
+
+.logo-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    background-color: #000000; /* Adjust background color as needed */
+    cursor: default;
+  }
+  
+.logo-button img {
+    width: 50px; 
+    height: auto;
+}
+  
+.logo-button span{
+    margin-top: 5px; 
+    color: #FFFFFF;
+}
+  

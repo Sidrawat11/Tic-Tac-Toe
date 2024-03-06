@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Artboard 1.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <section class="container">
+        <section class="player-tag">
+            <label>Player X's Turn</label>
+        </section>
+
+        <br>
+
+        <section class="board">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+        </section>
+
+        <br>
+        <br>
+
+        <section class="controller">
+            <section class="score-board">
+                <div class="player-1">Player 1 (X)</div>
+                <div class="tie">Tie</div>
+                <div class="player-2">Computer</div>
+                <div class="score-pl1">0</div>
+                <div class="score-tie">0</div>
+                <div class="score-pl2">0</div>
+            </section>   
+
+            <button class="logo-button">
+                <img src="single.png" alt="Logo" style="display: block; margin: auto;"/>
+                <span style="font-family: 'Share Tech Mono'">1P</span>
+            </button>
+        </section>
+        
+        <section class="game-info">
+            <label class="winner-label">Winner: None</label>
+        </section> 
+
+        <br>      
+
+        <section>
+            <button class="reset-button">Reset Game</button>
+        </section>
+    </section>
+
+    <script src="minimax.js"></script>
+    <script src="script.js"></script> 
+</body>       
+</html>

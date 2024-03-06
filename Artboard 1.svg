@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #002c71;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        font-size: 90.07px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #00b939;
+        font-family: Dubai-Bold, Dubai;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        font-size: 102.94px;
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-3 {
+        fill: #d53e00;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="139.1" cy="140.59" fx="139.1" fy="140.59" r="62.67" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#fff"/>
+      <stop offset=".79" stop-color="#00733e"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-1" d="M491.5,248.16c0,133.38-108.12,245.18-241.5,245.18S8.5,381.54,8.5,248.16,116.62,6.66,250,6.66s241.5,108.12,241.5,241.5Z"/>
+  <g>
+    <rect class="cls-3" x="164.48" y="45.16" width="35.69" height="406"/>
+    <rect class="cls-3" x="305.03" y="45.16" width="35.69" height="406"/>
+    <rect class="cls-3" x="232.6" y="-15.79" width="34.8" height="409" transform="translate(438.71 -61.29) rotate(90)"/>
+    <rect class="cls-3" x="232.6" y="116.89" width="34.8" height="409" transform="translate(571.39 71.39) rotate(90)"/>
+  </g>
+  <g>
+    <path class="cls-2" d="M102.45,151.24c-4.25-2.95-7.47-7.05-9.64-12.3-2.17-5.25-3.26-11.34-3.26-18.27,0-7.68,1.32-14.12,3.96-19.3,2.64-5.18,6.14-9.02,10.52-11.53,4.37-2.5,9.22-3.76,14.56-3.76,6.1,0,11.28,1.48,15.53,4.43,4.25,2.95,7.45,7.05,9.59,12.3s3.21,11.34,3.21,18.27c0,7.69-1.31,14.12-3.92,19.3-2.61,5.18-6.1,9.03-10.47,11.53-4.37,2.5-9.23,3.76-14.56,3.76-6.1,0-11.28-1.48-15.53-4.43ZM126.83,141c2.43-1.82,4.25-4.43,5.46-7.82,1.2-3.4,1.8-7.39,1.8-11.99,0-7.27-1.32-12.95-3.96-17.04-2.64-4.08-6.48-6.12-11.53-6.12s-9.3,2.01-12.06,6.02c-2.76,4.01-4.14,9.52-4.14,16.52s1.32,12.95,3.96,17.04c2.64,4.08,6.51,6.12,11.62,6.12,3.46,0,6.41-.91,8.84-2.73Z"/>
+    <text class="cls-5" transform="translate(86.31 154.23) scale(.85 1)"><tspan x="0" y="0">O</tspan></text>
+  </g>
+  <text class="cls-5" transform="translate(219.7 289.32) scale(.85 1)"><tspan x="0" y="0">O</tspan></text>
+  <text class="cls-4" transform="translate(75 283.6) scale(1.21 1)"><tspan x="0" y="0">X</tspan></text>
+  <text class="cls-4" transform="translate(348 416.81) scale(1.21 1)"><tspan x="0" y="0">X</tspan></text>
+  <text class="cls-5" transform="translate(220.12 423.62) scale(.85 1)"><tspan x="0" y="0">O</tspan></text>
+</svg>
