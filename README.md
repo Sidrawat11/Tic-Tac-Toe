@@ -2,6 +2,7 @@
 
 Welcome to the Tic-Tac-Toe project! This is a classic game of Tic-Tac-Toe built with HTML, CSS, and JavaScript. It features a clean, interactive user interface and includes both single-player (against AI) and two-player modes.
 
+![Game Interface](Game-Interface.png)
 
 ## Features
 
